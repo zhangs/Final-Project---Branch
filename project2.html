@@ -1,0 +1,67 @@
+<!doctype html>
+
+<!--
+Billy Mills
+CSCI 344
+project2.html
+Feb 20 2012
+-->
+
+<!--
+Slightly edited by Shuo Zhang for final project
+-->
+
+<html lang="en">
+
+	<head>
+		<meta charset = "utf-8"/>
+		<title>Project 2</title>
+			<!--hotlink for google webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'/>
+			<!--hotlink for bootstrap-->
+		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"/>
+		<link rel="stylesheet" href="stylesheets/project2.css"/>
+			<!--hotlink for google apis-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<!--link for spotter file-->
+		<script src="scripts/lib/spotter.js"></script>
+		<script type="text/javascript" src="scripts/src/project2.js"></script>		
+	</head>
+
+	<body>
+		<div id="main" class="container">
+				<!--upper left main block-->
+			<div id="search_box">
+				<div id="search_contents">
+					<h1>What are you interested in?</h1>
+    				<input type="text" class = "input-medium" placeholder="Enter a search term" id="term"/>
+					<!--- Added drop-down list, Shuo Zhang--->
+					<select id="brewlist">
+						<option>Brew1</option>
+						<option>Brew2</option>
+						<option>Brew3</option>
+						<option>Brew4</option>
+					</select> 
+					<!--- --->
+    				<button id="search_button" class="btn">Go!</button>
+    			</div>
+    		</div>
+    			<!--outer div with interior divs for box header and twitter feed-->
+    		<div id="outer_tweet">
+    			<div id="tweet_header">
+    			</div>
+    				<!--div for holding tweets-->
+    			<div id="tweets">
+					<p id="temp_par">
+						<h5 id="temp_header">Enter a search term and we'll track "love" and "hate" on twitter...</h5>
+					</p>
+				</div>
+			</div>
+			<div id="refresh_button">
+			</div>
+			<div id="footer">
+				billymills2012
+			</div>	
+		</div>
+	</body>
+</html>

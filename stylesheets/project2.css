@@ -1,0 +1,102 @@
+/*
+Billy Mills
+CSCI 344
+project2.css
+Feb 20 2012
+*/
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #9ACD32;
+	height: 100%;
+}
+
+h4 {
+	font-family: 'Orbitron', sans serif;
+}
+	
+.container {
+	background-color: #D7EBAD;
+	border-right:2px solid white;
+	border-left:2px solid #000000;
+}
+
+#main {
+	min-height:100%;
+}
+
+#temp_header {
+	font-family: 'Orbitron', sans serif;
+	font-weight: 600;
+}
+
+#search_box {
+	font-family: 'Orbitron', sans serif;
+	color:white;
+	padding-top:30px;
+	padding-left:35px;
+	margin-top:50px;
+	position:absolute;
+	left:50px;
+	top:20px;
+	width:600px;
+	height:125px;
+	background-color:#000000;
+	/*padding:25px;*/
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+
+#outer_tweet {
+	position:absolute;
+	right:50px;
+	top:250px;
+	width:700px;
+	height:300px;
+	font-size: 50%;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 10px;
+	background-color: white;
+	margin-top:25px;
+	-webkit-border-radius: 15px 15px 15px 15px;	
+}
+
+#tweets {
+	font-size: 50%;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	font-size:11px;
+}
+
+.pic_class {
+	height: 25px;
+	width: 25px;
+}
+
+#results {
+	padding:15px;
+	color:white;
+	position:relative;
+	left:30px;
+	top:375px;
+	width:150px;
+	height:100px;
+	background-color:#FFA500;
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+
+#footer {
+	color: black;
+	position: relative;
+	left: 25px;
+	top: 600px;
+	font-family: 'Orbitron', sans serif;
+}
